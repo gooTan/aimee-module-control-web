@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "module": "control-web",
+  "classification": "optional",
+  "execution": "process",
+  "runtime": "go",
+  "placements": [
+    "kb"
+  ],
+  "principal_class": 1,
+  "principal_ref": 24,
+  "stages": [
+    {
+      "id": 1,
+      "name": "proxy-route-authorization",
+      "event_kind": 10241
+    }
+  ],
+  "source_sha256": "c88550195832beee1346c4b4dd9595c2d93baca351f6c5a9f49872b7e9d4ba82",
+  "owned_files": [
+    "src/modules/control-web/module.yaml",
+    "src/modules/control-web/module_adapter.c",
+    "src/modules/control-web/include/aimee/control-web/module_api.h",
+    "docs/modules/control-web.md",
+    "server-go/modules/control-web/policy/acl.go",
+    "server-go/modules/control-web/control_web.go",
+    "server-go/modules/control-web/control_web_test.go"
+  ]
+}
